@@ -1,0 +1,80 @@
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #29BA66;
+  color: #ffffff;
+}
+
+.header-logo {
+  padding: 14px 0 14px 27px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 49px;
+  padding: 14px 0;
+}
+
+.header ul li {
+  padding-right: 24px;
+}
+
+/* main */
+.main {
+  padding: 35px 0 74px 0;
+}
+
+.main .contents-header h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0 0 12px 0;
+}
+
+.main .contents-header p {
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+.main .contents-lesson {
+  margin-top: 72px;
+  margin-bottom: 74px;
+}
+
+.main .contents-lesson h2:after {
+  display: block;
+  content: '';
+  height: 5px;
+}
+
+.main .contents-lesson ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.main .contents-lesson ul li {
+  list-style: none;
+  width: 146px;
+  height: 146px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
